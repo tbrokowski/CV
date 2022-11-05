@@ -1,0 +1,722 @@
+<!DOCTYPE HTML>
+<!--
+	Trevor Brokowski
+	- Personal Website
+-->
+<html>
+	<head>
+		<title>Trevor Brokowski</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Trevor Brokowski</a></h1>
+					<p>Honors Student at UCLA - Aspiring PhD candidate in Biomedical Informatics and Computational Biology</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Research & Experience</a></li>
+						<li><a href="#three">Publications & Presentations</a></li>
+						<li><a href="#four">Skills & Classes</a></li>
+                        <li><a href="#five">Hobbies</a></li>
+						<li><a href="#six">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Trevor Brokowski</h2>
+									</header>
+									<p> I am a senior at the University of California, Los Angeles Honors College studying Computational and Systems Biology with a custom concentration in Quantum Machine Learning for Genetic Engineering. I am an aspiring PhD candidate looking to study Biomedical Informatics and Computational Biology. I want to focus on harmonizing and integrating multimodal data -electronic health records, omic, and imaging - with social determinants of health for more accurate and equitable precision care models. I also want to work with practicing clinicians to design interpretable visualizations and deploy these models in clinical settings. </p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+							  <div class="container">
+									<h3>Research and Experience</h3>
+									<p> My experiences in research and internships have given me a versatile skillset with which I am able to creatively frame interdisciplinary hypotheses into executable problems and then the technical prowess needed to deliver meaningful results. Fueled by my belief that anything is possible and my unyielding work ethic, I strive for brilliance in innovating cutting-edge and creative methodologies and have the grit needed to remain ambitious in the face of uncertainty. Moreover, I recognize the vitality of teamwork and strive to promote inclusivity, improving the work of myself and those around me. The descriptions below provide an in-depth explanation of the problem addressed, my method, and the outcome. If you desire a more succint explanation of my accomplishments, please view my <a href="pdfs\resume.pdf"> resume </a>. </p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/MRSA.jpg" alt="" /></a>
+                                            
+                                            
+                                            
+                                            <div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4>MRSA stewardship Computational Medicine, UCLA</h4>
+                                                    
+                                                </button>
+                                                <div class="content">
+                                                  <p> <h5>Context: </h5>Antimicrobial resistance is one of the growing health crises across globe, with a projected death toll of ten million people per year by 2050. Genetic changes induce the development of antimicrobial resistance over time, but the misuse and excessive use of antibiotics is the primary cause. There is growing concern over a certain class of antibiotic resistant infections known as “Superbugs”. These multi and pan-resistant bacteria no longer respond to treatment with available antibiotics and the looming threat is more bacterial organisms will follow.
+                                                  <h5>Methods: </h5>I am addressing this issue through the creation of antibiotic stewardship model for one of the 5 "superbugs": Methicillin-resistant Staphylococcus aureus (MRSA). MRSA develops from certain strains of staph gaining resistance to broad-spectrum antibiotics, and has caused over 100,000 deaths in the last year. Antibiotic
+                                                  susceptbility testing (AST) to identify effective antibiotics for treatment regimes are
+                                                  essential for limiting antimicrobial resistance.
+                                                 However, AST results take between 24 and 76 hours to return, which is too long to delay initial treatment.
+                                                 So, in the mean time, doctors prescribe empiric antibiotics to treat the infection which contributes to the development of resistance mechanisms. I have constructed 19 binary machine learning models that make antibiotic susceptibility predictions at each time an antibiotic was prescribed to guide clincian selection of antibiotic treatment. This clinical support decision system will be made available to clinicians and guide their prescription makig process.
+                                                 <h5>Results:</h5> My model presents an alternative solution to broad spectrum empiric antibiotic prescription. This tool is able to identify effective antibiotics that will provide activity against the bacterial infection with an average AUROC of 0.94 across all 19 antibiotics. Moreover, the insights gained from the model also utilize the combination of past antibiotic selection to guide in selecting newer and more effective treatment regimes. I am currently working with clinicians at the UCLA hospital to create a visualization system for the generated insights to deploy in the UCLA Geffen Hospital.</p>
+                                                </div>
+												
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/analytics.jpg" alt="" /></a>
+											<div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4> Commitment (Work) Prediction <br> World Wide Technology</h4>
+                                                </button>
+                                                <div class="content">
+                                                  <p> <h5>Context:</h5> In accordance with Agile best practices, a team will "commit" to certain amount of points at the beginning of each 10 week work period. The committed point value represents the deliverables the team predicts they can present to invested stakeholders at the end of the period. However, the actual amount delivered is often different than the commited value. If the delivered value falls short of the commited value, the team failed to deliver all of the work they promised, negatively impacting confidence in the team and the company. Thus, the ability to accurately forecast the probability of delivering on a commitment is of extreme value.
+                                                  <h5> Methods: </h5> At the start of my internship, I was asked to see if this prediction was possible. To explore this idea, I contacted countless individuals to track down the database tables that would contain relevant predictors, utilized ETL methodologies to extract and clean the data, and then performed an iterative process of EDA and model training/testing. Once I had constructed a model that was able to accuratly predict the probability of commitment delivery, I expanded on the initial idea and constructed a deep learning model that more accurately predicted the actual amount delivered at the end of the period.
+                                                  
+                                                  <h5> Results </h5> By the end of my internship I had constructed two deep learning models capable of predicting the probability of delivery and a more accurate projection of actual delivery. If this model had been used at the start of 2021, the company would have better allocated 1.5 million dollars worth of time in salary ~ 1 year better allocation of work for a 7 person team. Then, while evaluating the coefficients of my model, I determined that teams who have the highest predictability and best deliverability follow agile best practices. Thus, my work used data driven methodologies to verify the existence of the agile team at WWT. The culmination of my intern project was the deployment of my two deep learning models to production, a dashboard that allowed the easy interpretation of my insights, and a    <a href="pdfs\wwt.pdf">presentation </a>to the VP and President of IT at World Wide Technology.
+                                                
+                                       
+                                                  
+                                                  </p>
+                                                </div>
+                                                
+                                                
+                                                
+                                            
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/qml.jpg" alt="" /></a>
+                                            <div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4>Molecular Simulation (QML) <br> Quantum Biology Lab, UCLA</h4>
+                                                </button>
+                                                <div class="content">
+                                                  <p>
+                                                  <h5> Context: </h5>
+                                                  One of the most promising applications for quantum computers is the simulation of chemical and biological systems. This is because as quantum systems scale in size and gain degrees of freedom, they become exponentially more difficult to simulate using classic devices. Whereas by utilizing quantum mechanical properties, quantum computers can simultaneously compute multiple states at once which permits the simulation of these systems as they scale in size. Prior research has theoretically demonstrated that quantum devices can efficiently simulate larger systems which will advance the understanding of the quantum dynamics that modulate molecular systems and aid in various tasks such as predicting reaction rates, equilibrium geometries, and transition states.
+                                                  <h5> Methods </h5> Here, I proposed a novel method using Quantum Machine Learning to simulate a toy quantum system comprising two electrons and one nuclear interaction under the influence of varying magnetic field angles of incidence to explore the phenomena of spin dependent chemical reactions. This system, known as the radical pair mechanism, allows us to use the Lindblad Master equation to first solve for the final states of the system on a classic device, and then use quantum machine learning to learn how to map the system onto a quantum computer. Using a variational quantum algorithm, I construct an ansatz that consists of the electronic reactions that effect the system, and then optimize the parameters of the circuit until the final singlet yield matches the classically simulated singlet yield.
+                                                  <h5> Results: </h5> The results of my simulation demonstrate that the ansatz and procedure I had constructed is able to capture the final singlet state of the toy radical pair system. Although this is a toy system, this theoretical experiment demonstrates that we can simulate molecular systems on quantum devices using quantum machine learning techniques, and further research will attempt to scale this technique to simulate larger and more biologically relevant molecular systems. I have had the opportunity of presenting my research at the "IEEE International Conference for Quantum Computing" where I was one of 2 undergraduate  posters selected out of 300 applicants, and I have also presented at the "Big Quantum Biology Meeting" organized by UCLA and the University of Surrey. <a href="pdfs\wwt.pdf">  </a>
+                                                  </p>
+                                                </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/eye.jpeg" alt="" /></a>
+											<div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4> Well Plate Detection <br> Deep Learning, Biosero </h4>
+                                                </button>
+                                                <div class="content">
+                                                  <p>
+                                                  
+                                                <h5> Context: </h5>  Lab Automation has accelerated scientific research and allowed for more reliable and precise data. Many lab automation processes are either hosted within a single machine that automates a series of assays or require devices made from the same company, however, Biosero provides device agnostic lab automation and scheduling where you can create workflows that utilize multiple devices and then schedule assays to run until completion. Using robotic arms and lab assistant robots, well-plates are able to be transferred from device to device without human intervention, allowing scientists to do science instead of manually carrying out their experiments. However, one issue within lab automation is the fault with picking and placing well-plates by robotic arms. Occasionally, the robotic arm will not place the well-plate exactly flush on the plate holder, causing the failure of the automated assay and potentially ruining thousands of dollars worth of samples. The solution is to have a human pick up the plate, move it a few centimeters onto the plate holder and then press continue.
+                                    
+                                    <h5> Methods: </h5>
+                                    
+                                    To start, the way I got the internship was a little unorthodox, which allowed them to take a chance and allow me to work on a sizeable but potentially unfeasible project. Desiring a summer internship in biotech, I cold emailed over 50 leading biotech companies across southern california asking for an internship. After interviewing, I ended up as a deep learning intern at Biosero. I was the only full-time summer employee who had any prior knowledge in deep learning, albeit at the time mine was very surface-level. Nonetheless, after meeting with the CTO where he mentioned the issue with picking and placing well plates, I was determined to develop a solution.  This was a computer vision problem, yet I hadn't had any experience with computer vision, so I spent the first couple weeks attempting to understand all of the methodolgies and how to apply them to my problem. Over the course of the next month, I felt like goldilocks. Some of the solutions were accurate but not fast, fast and accurate but not robust to a lab enviornment. I had to embrace failure as learning, and re-frame my mindset. Instead of having no successes I had simply learned new computer vision techniques that did not suit my problem. Given the freedom, and scariness, of no oversight I had the opportunity to become skilled in a wide range of deep learning and computer vision methodologies. It forced me to grow as a scientists and develop solutions by thinking on my own. One day, when I was getting close to giving up, I found a paper from an MIT professor about his work in computer vision and picking and placing. It was very similar to my work and at that moment I realized that if its posisble for anyone to do it, its possible for me to do it. Finally, by the end of the summer I had developed a patent pending methology to identify plates in a robust lab enviorment and then I improved upon the initial ask and was actually able to correct the plates themselves.
+                                    
+                                    <h5> Results: </h5>
+                                    My final system performed image to image prediction by leveraging fully convolutional networks and deeply connected nets which identified the plates through robust edge and boundary detection. If the plate was deemed out of place, a RGBD camera would identify the 3-d location and then correct the position. A video of the final system is available below. Please note that the qr code was used for hand eye calibration with the robotic arm and not to locate the plate itself.
+                                    
+                                    <video controls="controls" width="400" height="400" name="Video Name">
+                                      <source src="images/plate.MOV">
+                                    </video>
+                                     
+                                                  
+                                                  
+                                                  </p>
+                                                </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/bird.jpg" alt="" /></a>
+											<div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4> Color Pattern Analysis <br> Alfaro Laboratory, UCLA</h4>
+                                                </button>
+                                                <div class="content">
+                                                  <p>
+                                                  <h5> Context: </h5>
+                                                 It is accepted that the coloration of bird feathers and fish scales have ecological and behavioral functions that evolved through process of natural selection. The understanding of the geo-origination of colors, comparative analyses for color in different species, and other insights into coloration would grant insights into evolution of birds and fish on earth. However, one of the issues that evolutionary biologists encounter is the identification of colors. One person's blue might be another's gray. Hence - color is highly subjective.
+                                                 <h5> Methods and Results: </h5> This research project developed an r-package aiding in high throughput analyses of birds and fish through discrete color identification, allowing the standardization of color. My first contribution to this project accelerated the image processing pipeline from analyzing 24 images in 3 hours to 7 minutes. Taking advantage of R's vector based calculations, I vectorized all of the color calculation mechanisms in the software which drastically improved computation time. My next major contibution was a function that attempted to quantify the biological significance of inididual color spots or small patterns. The original software output colors that had a total prevalence above a set threshold. So, if there was a white bird with a significant small red spot, the software would miss that red spot. My function used a dynamic method to calculate the clustering frequency of the colors in the image to solve this issue.
+                                                  
+                                                
+                                                  
+                                                  
+
+                                                  
+                                                  
+                                                  
+                                                  </p>
+                                                </div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/fish.jpg" alt="" /></a>
+											<div class="inner">
+                                                <button type="button" class="collapsible">
+                                                    
+                                                    <h4> Hypoxic Preconditioning <br> Institute for Genomic Medicine</h4>
+                                                </button>
+                                                <div class="content">
+                                                  <p>
+                                                  <h5> Context: </h5>
+                                                  As my first reasearch experience, I assisted in Dr. Farhad B. Imam's lab at the Institute for Genomic Medicine at the University of California, San Diego where the research goal was to develop a novel vertabrate model for hypoxic preconditioning. The scope of the research aimed to identify and study genes that protect key organs like the brain from low oxegynic stress enviornments. Severe hypoxia is a common cause of major brain, heart, and kidney injury in adults, children, and newborns however mild hypoxia can be protective against the former.
+                                                  <h5> Methods and Results: </h5> I contributed to this research by performing RNA extraction, labeling, and hybridation using an embryonic zebrafish model to study hypoxic function. In totality, I helped to identify over 3000 differentially expressed transcripts that appeared in the prescence of hypoxic conditions, as well as the identification and validation of five novel hypoxia-protected genes which were previously implicated in metabolic regulation.
+                                                  
+                                                  </p>
+                                                </div>
+										</article>
+									</div>
+								</div>
+							</section>
+                            
+                            <section id="three">
+                      <div class="container">
+                            <h3>Publications and Presentations</h3>
+                            <p>
+                            
+                                <h4> Publications </h4>
+                                <p class = "indent">Brokowski T, Chiang NJ. MRSA Stewardship through personalized antibiograms. Published online November 20, 2022. https://doi.org/__/arXiv </p>
+                                <p class = "indent">
+                            Brokowski TJ, Chowdhury F, Wilson L, Sandeep S, Alvarez P, Aiello C. Simulating Molecular Systems Via Quantum Machine Learning. Published online November 21, 2022.</p>
+                           
+                            <h4> Presentations </h4>
+                            
+                            <p class = "indent">
+                            Simulating Spin Chemistry Systems using Hybrid-Quantum Machine Learning.
+                            Trevor Brokowski, Clarice Aiello (Univ. of California Los Angeles), Farhan Tanvir Chowdhury, Luke Daniel Smith (Univ. of Exeter), Samarth Sandeep (If and Only If (Iff) Technologies) and Pedro Alvarez (Universidade Estadual de Campinas)Presented at: IEEE International Conference on Quantum Computing and Engineering; 2022 Sept 18-23, Broomfield Colorado</p>
+                           
+                            <p class = "indent">
+                            A Variational Approach to Electronic Hamiltonian Simulation.
+                            Trevor Brokowski. Presented at: Big Quantum Biology Meeting; 2022 Feb. 14, online.</p>
+                            <p class = "indent">
+                            
+                            Determining bird colors from digital images for high-throughput analyses of color evolution
+                            Whitney L. E. Tsai, Shawn T. Schwartz, Elizabeth A. Karan, Mark S. Juhn, Mackenzie Perillo, Trevor Brokowski, Allison J. Shultz, Thomas B. Smith, and Michael E. Alfaro. Presented at: American Ornithology Society, Ornithological Conference. 2021 Aug. 9, online.</p>
+                            
+                            </p>
+                            
+                        
+                        </div>
+                    </section>
+                            
+                            
+
+						<!-- Three -->
+							<section id="four">
+							  <div class="container">
+									<h3>Classes</h3>
+									
+									<ul class="feature-icons">
+										<li class="icon solid fa-book"> <h5> Biology </h5> RNA Biology and Technology, Molecular, Cellular, Genetics, Evolution, Ecology, Physiology, Human Biology. </li>
+										<li class="icon solid fa-book"><h5> Chemistry </h5> Quantum, Thermodynamics, Electrochemistry, Kinetics, Organic, General. </li>
+										<li class="icon solid fa-book"><h5> Mathematics </h5> Advanced Linear Algebra, Differential Equations, Discrete Mathematics, Calculus for Mathematical Biologists, Mathematics for Life Scientists. </li>
+										<li class="icon solid fa-book"><h5> Statistics </h5> Biostatistics for Public Health, Statistical Learning, Probability and Statistcs, Statistics for Life Scientists. </li>
+										<li class="icon solid fa-book"> <h5> Computer Science </h5> Artifical Intelligence, Machine Learning, Database Systems, Quantum Computing, Data Structures and Algorithms. </li>
+										<li class="icon solid fa-book"> <h5> General </h5>  Philosophy of Mind, Psychology of John Wooden, Global Islam.</li>
+									</ul>
+								
+								</div>
+							</section>
+							
+                            
+                            <section id="four">
+                      <div class="container">
+                            <h3>Skills</h3>
+                            
+                            <ul class="feature-icons">
+                                <li class="icon solid fa-mountain"> <h5> Languages </h5>
+                                    Python, Java, R, C++, C#, HTML, SQL,
+                                    
+                                    
+                                </li>
+                                <li class="icon solid fa-tree"><h5> Platforms </h5>
+                                 AWS, Azure, Kubernetes, Kubeflow, Toad, Oracle
+                                </li>
+                                <li class="icon solid fa-bolt"><h5> Libraries </h5>
+                                    
+                                    Pandas, Pytorch, Tensorflow, OpenCV, Sklearn, Scipy, Numpy, Qiskit, QuTip, Pennylane
+                                    
+                                </li>
+                                <li class="icon solid fa-coffee"><h5> Other  </h5>
+                                    PowerBi, Tableau, Microsoft Office
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </section>
+                            
+                            
+									<section id="five">
+							  <div class="container">
+									<h3>Hobbies</h3>
+									<p> Here are some things I like doing when I'm not working!</p>
+                                    <div class="row">
+                                      <div class="column">
+                                        <div class="imgcontent">
+                                          <img src="images/run2.jpg" alt="Mountains" style="width:100%">
+                                          <button type="button" class="collapsible">
+                                              <h4>Running</h4>
+                                          </button>
+                                          <div class="content">
+                                            <p>
+                                         This picture was taken at the Ohai to Ventura Mountains to Beach marathon - my first marathon ever. 4 months prior, when I signed up for the race, I had the lofty goal of qualifying for the Boston marathon.  To qualify, I would need to run a marathon in under 3 hours. For context, qualifying for the Boston marathon is one of the pinnacle achievements in amateur sports as the qualifying times ensure that only the top 99 percentile of marathoners in each age group will qualify. After months of consistent and rigourous training, race day had arrived, and let me tell you, running a marathon is an excruciating but incredibly addicting ordeal. Upon mile 20, I hit the wall and I didn't think that I could go on. Falling back on my training, I was able to perseve. This is what I had worked for. No one else was deserved or was capable of experiencing my pain, so I needed to enjoy it and finish the race. Unbeknowst to me at the time, this marathon had a hiccup. The course was extended by 0.4 miles, and so instead of running 26.2 miles, everyone had to run 26.6 miles. This caused me to have an adjusted time of 3:00:01. I missed the qualifying time by one second because of the extra 0.4 miles that I had to run. Simply put, I was devasted. It was heartbreaking to miss my goal due to an uncontrollable external factor. Many others wanted to sue the race or blame and complain. I got back in the lab. I just needed to work harder such that no uncontrollable external factor would get in my way. I am running the same race in May 2023, and I am going to win. This time, nothing is going to keep me from my goal.
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="column">
+                                        <div class="imgcontent">
+                                          <img src="images/trees.jpg" alt="Lights" style="width:100%">
+                                              <button type="button" class="collapsible">
+                                                  <h4>Hiking</h4>
+                                              </button>
+                                              <div class="content">
+                                                <p>
+                                              There is nothing as serene as getting outside and exploring the great out doors. I have been blessed with the ability to visit 8/9 National Parks in California and, in total, 21 National Parks across the country. My favorite is sequoia. Being from southern california, one of my favorite things to do is drive out to the desert in the afternoon, spend the night hiking around and exploring the vast empty space of the desert, and then drive back the next morning.
+                                                </p>
+                                              </div>
+                                        </div>
+                                      </div>
+                                      <div class="column">
+                                        <div class="imgcontent">
+                                          <img src="images/football.jpg" alt="Nature" style="width:100%">
+                                              <button type="button" class="collapsible">
+                                                  <h4>Football</h4>
+                                              </button>
+                                              <div class="content">
+                                                <p>
+                                              In highschool, football was my life. My freshman year, my team won 1 game and the program was in danger of being shut down. By my senior year, the other 4 senior and I had transformed the program. We won CIF that year and had the opportunity to contend for a state title. Football taught me a lot, but the most important was that if you work hard for something and want something bad enough, you will get it. It might not be tomorrow and it might not be in the immediate future, but if you remain steadfast and committed to your goal, you can accomplish anything. Throughout my time, I had won the character, comittment, and competitive greatness award. This is one of my most proud achievements as it encapulates what I believe to be the most important values. My senior year I was named the team's MVP, senior captain, 1st team all conference running back, and I won my school wide significant athlete award - awarded to the most athlete in the senior class who best embodies the qualites of leadership, character, and had the most impact on the highschool sports program over the course of the 4 years. Now that I am in college, I resort to cheering on my team, the UCLA Bruins.
+                                                </p>
+                                              </div>
+                                        </div>
+                                      </div>
+                                      <div class="column">
+                                        <div class="imgcontent">
+                                          <img src="images/beach1.jpg" alt="Mountains" style="width:100%">
+                                              <button type="button" class="collapsible">
+                                                  <h4>Beach</h4>
+                                              </button>
+                                              <div class="content">
+                                                <p>
+                                              Once again, being from California, I have spent most of my free time at the beach. Whether it be surfing, snorkeling, throwing around the football, much of my free time was spent hanging out in the sun with friends at No Surf in La Jolla.
+                                                </p>
+                                              </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="imgcontent">
+                                      <img src="images/banner1.jpg" alt="Bear" style="width:100%">
+                                      
+                                    </div>
+
+								
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="six">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p> If you have any inquries regarding my research or experiences or just want to say hi, please contact me down below!</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
